@@ -24,8 +24,8 @@ class App extends Component {
 					/>
 					<Section
 						title="Projects"
-						subtitle={dummyText}
-						dark={false}
+						subtitle={<Projects />}
+						dark={true}
 						id="Projects"
 					/>
 					<Section
