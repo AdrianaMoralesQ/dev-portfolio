@@ -19,7 +19,7 @@ const About = () => {
 			<Header>
 				<Intro>
 					<h1>Hi, I'm Adriana| </h1>
-					<Title> Full Stack Developer!</Title>
+					<Title> Full Stack Developer</Title>
 				</Intro>
 				<Icons>
 					<button href="https://www.linkedin.com/in/adriana-morales-quiones/">
