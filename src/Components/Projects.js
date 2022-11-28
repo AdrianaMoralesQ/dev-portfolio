@@ -63,21 +63,6 @@ const Projects = () => {
 					<Listed>
 						<h2>Full-Stack:</h2>
 					</Listed>
-					<Description>
-						<h3> I like making things run smoothly</h3>
-						<ContentWrapper>
-							<p>
-								I have an unconventional background. I've worked in a bunch of
-								industries, ranging from legal translation, video-game QA and
-								Localization Project Management. I recently pivoted to Full
-								Stack Web development because I wanted to learn how to fix the
-								software issues that plagued my roles in QA and Localization.
-								Having worked with Devs, to report bugs - I understand the
-								importance of asking follow-up questions, clear communication
-								and user-friendly technology.
-							</p>
-						</ContentWrapper>
-					</Description>
 				</div>
 			</SkillWrapper>
 		</Wrapper>
