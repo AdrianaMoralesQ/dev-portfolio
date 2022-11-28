@@ -1,10 +1,6 @@
 import {
 	Wrapper,
-	Intro,
-	Description,
-	Skill,
 	Listed,
-	Profile,
 	SkillWrapper,
 	ContentWrapper,
 } from "../Public/Styled Components.js";
@@ -59,9 +55,6 @@ const Projects = () => {
 							</p>
 							<p>UI design and colors were influenced by the Comunauto site.</p>
 						</ContentWrapper>
-					</Listed>
-					<Listed>
-						<h2>Full-Stack:</h2>
 					</Listed>
 				</div>
 			</SkillWrapper>

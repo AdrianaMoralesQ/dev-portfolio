@@ -1,6 +1,5 @@
 import {
 	Wrapper,
-	Intro,
 	Description,
 	Skill,
 	Listed,
