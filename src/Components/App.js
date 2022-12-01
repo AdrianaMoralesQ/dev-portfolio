@@ -30,7 +30,7 @@ class App extends Component {
 					/>
 					<Section
 						title="Contact"
-						subtitle={dummyText}
+						element={<Contact />}
 						dark={true}
 						id="Contact"
 					/>

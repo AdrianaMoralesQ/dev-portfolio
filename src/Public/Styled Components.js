@@ -129,3 +129,12 @@ export const SmallContentWrapper = styled.div`
 	justify-content: space-between;
 	margin-top: 2rem;
 `;
+
+export const ContactForm = styled.div`
+	margin: 2rem;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+	font-size: 16px;
+`;
