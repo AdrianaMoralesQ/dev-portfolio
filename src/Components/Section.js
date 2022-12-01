@@ -6,7 +6,7 @@ export default function Section({ title, element, subtitle, dark, id }) {
 		<SectionWrapper className={"section" + (dark ? " section-dark" : "")}>
 			<div className="section-content" id={id}>
 				<SectionTitle>{title}</SectionTitle>
-				<span>{element}</span>
+				<div>{element}</div>
 				<p>{subtitle}</p>
 			</div>
 		</SectionWrapper>

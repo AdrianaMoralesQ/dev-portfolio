@@ -123,3 +123,9 @@ export const ContentWrapper = styled.div`
 	width: 40vw;
 	justify-content: space-around;
 `;
+
+export const SmallContentWrapper = styled.div`
+	width: 30vw;
+	justify-content: space-between;
+	margin-top: 2rem;
+`;
