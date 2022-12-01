@@ -125,9 +125,8 @@ export const ContentWrapper = styled.div`
 `;
 
 export const SmallContentWrapper = styled.div`
-	width: 30vw;
-	justify-content: space-between;
-	margin-top: 2rem;
+	display: block;
+	padding: 2%;
 `;
 
 export const ContactForm = styled.div`
