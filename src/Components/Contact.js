@@ -20,6 +20,7 @@ export const Contact = () => {
 					console.log(result.text);
 					console.log("Message sent!");
 					e.target.reset();
+					alert("📤 Message sent!");
 				},
 				(error) => {
 					console.log(error.text);

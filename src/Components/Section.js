@@ -7,7 +7,6 @@ export default function Section({ title, element, subtitle, dark, id }) {
 			<div className="section-content" id={id}>
 				<SectionTitle>{title}</SectionTitle>
 				<div>{element}</div>
-				<p>{subtitle}</p>
 			</div>
 		</SectionWrapper>
 	);
