@@ -1,13 +1,7 @@
 import React from "react";
 import { SmallContentWrapper } from "../Public/Styled Components";
 
-export default function ProjectSection({
-	title,
-	type,
-	image,
-	subtitle,
-	element,
-}) {
+export default function ProjectSection({ title, type, subtitle, element }) {
 	return (
 		<span>
 			<SmallContentWrapper>

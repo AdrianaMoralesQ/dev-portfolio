@@ -3,6 +3,7 @@ import {
 	Listed,
 	SkillWrapper,
 	SmallContentWrapper,
+	ProjectWrapper,
 } from "../Public/Styled Components.js";
 import ProjectSection from "./ProjectSection.js";
 import Carma from "./Projects/Carma.js";
@@ -10,7 +11,7 @@ import Books from "./Projects/Books.js";
 
 const Projects = () => {
 	return (
-		<>
+		<ProjectWrapper>
 			<ProjectSection
 				title="Carma - Find A Car"
 				subtitle="Front End"
@@ -23,7 +24,13 @@ const Projects = () => {
 				type="Social Media"
 				element={<Books />}
 			/>
-		</>
+			<ProjectSection
+				title="Carma - Find A Car"
+				subtitle="Front End"
+				type="Scraper"
+				element={<Carma />}
+			/>
+		</ProjectWrapper>
 	);
 };
 export default Projects;

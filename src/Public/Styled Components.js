@@ -127,6 +127,13 @@ export const ContentWrapper = styled.div`
 export const SmallContentWrapper = styled.div`
 	display: block;
 	padding: 2%;
+	max-width: 50%;
+`;
+
+export const ProjectWrapper = styled.div`
+	display: flex;
+	margin: 1rem;
+	justify-content: center;
 `;
 
 export const ContactForm = styled.div`
@@ -184,4 +191,10 @@ export const ContactWrapper = styled.div`
 	flex-direction: row;
 	justify-content: space-around;
 	font-size: 19px;
+`;
+
+export const Screenie = styled.img`
+	max-width: 325px;
+	cursor: pointer;
+	border-radius: 10px;
 `;

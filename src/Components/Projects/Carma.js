@@ -1,8 +1,11 @@
 import React from "react";
+import carma from "../../Public/carma.png";
+import { Screenie } from "../../Public/Styled Components";
 
 export default function Carma() {
 	return (
 		<>
+			<Screenie src={carma} alt="Carma app screenshot" />
 			<h4 className="stack"> React, Typescript, Styled-Components, Vercel </h4>
 			<div>
 				<p>

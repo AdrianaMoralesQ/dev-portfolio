@@ -10,6 +10,7 @@ import {
 	AiFillLinkedin,
 	AiOutlineGithub,
 	AiFillTwitterCircle,
+	AiFillMail,
 } from "react-icons/ai";
 import Emoji from "./Emoji";
 
@@ -30,6 +31,13 @@ const About = () => {
 					</button>
 					<button href="https://twitter.com/AdrianaMorale26">
 						<AiFillTwitterCircle />
+					</button>
+					<button
+						onClick={() => {
+							window.scrollTo({ top: 2900, left: 0, behavior: "smooth" });
+						}}
+					>
+						<AiFillMail />
 					</button>
 				</Icons>
 				<Paragraph>
