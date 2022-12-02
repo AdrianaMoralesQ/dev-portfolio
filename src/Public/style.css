@@ -27,6 +27,12 @@ h4,
 p {
 	color: #1d3557;
 }
+.italics {
+	font-weight: 100;
+}
+.title {
+	text-decoration: solid underline #e63946 0.15rem;
+}
 h5 {
 	color: #e63946;
 }

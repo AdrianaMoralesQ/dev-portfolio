@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import { Nav, NavLink, NavMenu, Logo } from "../Public/Styled Components.js";
@@ -15,6 +15,9 @@ export default class NavBar extends Component {
 						alt="Logo"
 						activeClass="active"
 						to="About"
+						onClick={() => {
+							window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+						}}
 						spy={true}
 						smooth={true}
 						offset={-70}

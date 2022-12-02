@@ -11,9 +11,9 @@ export default function ProjectSection({
 	return (
 		<span>
 			<SmallContentWrapper>
-				<h3>{title}</h3>
+				<h3 class="title">{title}</h3>
+				<h4 class="italics">{subtitle}</h4>
 				<h5>{type}</h5>
-				<h4>{subtitle}</h4>
 				<div>{element}</div>
 			</SmallContentWrapper>
 		</span>

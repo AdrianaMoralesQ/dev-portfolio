@@ -13,14 +13,14 @@ const Projects = () => {
 		<>
 			<ProjectSection
 				title="Carma - Find A Car"
-				type="Scraper"
 				subtitle="Front End"
+				type="Scraper"
 				element={<Carma />}
 			/>
 			<ProjectSection
 				title="It's Books"
-				type="Social Media"
 				subtitle="Full Stack"
+				type="Social Media"
 				element={<Books />}
 			/>
 		</>
