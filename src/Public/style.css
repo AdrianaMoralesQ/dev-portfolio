@@ -1,11 +1,12 @@
-* {
-	box-sizing: border-box;
-}
-
 body {
 	background-color: #f1faee;
 	margin: 0;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+img,
+picture,
+video {
+	max-width: 100%;
 }
 header {
 	color: #f1faee;

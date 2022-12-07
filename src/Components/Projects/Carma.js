@@ -16,7 +16,10 @@ export default function Carma() {
 					It's responsive to mobile devices and desktop adjusting the display
 					based on screen size.
 				</p>
-				<p>UI design and colors were influenced by the Comunauto site. </p>
+				<p>
+					UI design and colors were inspired by the Comunauto site but complying
+					with accessibility parameters.{" "}
+				</p>
 
 				<a href="https://github.com/AdrianaMoralesQ/communauto-notification-system/tree/main/frontend">
 					Github

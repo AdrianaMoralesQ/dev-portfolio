@@ -1,10 +1,12 @@
 import React from "react";
+import books from "../../Public/books.png";
+import { Screenie } from "../../Public/Styled Components";
 
 export default function Books() {
 	return (
 		<>
+			<Screenie src={books} alt="It's books app screenshot" />
 			<h4 className="stack">
-				{" "}
 				React, Typescript, Styled-Components, MockAPI, MongoDB, Auth0, Figma
 			</h4>
 			<div>

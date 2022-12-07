@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const AppWrapper = styled.div`
-	background-color: #f1faee;
-`;
-
 export const Logo = styled.img`
 	height: 60px;
 	width: 60px;
@@ -46,12 +42,15 @@ export const Paragraph = styled.h4`
 export const SectionTitle = styled.h1`
 	color: #1d3557;
 	padding-top: 2rem;
-	padding-left: 2.5rem;
+	/* padding-left: 2.5rem; */
 `;
 
 export const SectionWrapper = styled.div`
-	margin-top: 1rem;
-	height: 100vh;
+	/* margin: 1rem 30%;
+	min-height: 100vh;
+	max-width: 1000px; */
+	max-width: 1100px;
+	margin: auto;
 `;
 
 export const AboutWrapper = styled.div`
@@ -65,16 +64,11 @@ export const Header = styled.div`
 	background-color: #1d3557;
 	padding: 0.5;
 	color: #f1faee;
-	margin-left: 2vw;
-	margin-bottom: 40vh;
-	margin-top: 20vh;
-`;
-
-export const Wrapper = styled.div`
-	background-color: #f1faee;
-	padding: 0.5;
-	color: #1d3557;
-	margin-left: 2vw;
+	/* margin-left: 2vw; */
+	/* margin-bottom: 40vh;
+	margin-top: 20vh; */
+	margin: 20vh auto 40vh;
+	max-width: 1100px;
 `;
 
 export const Intro = styled.div`
@@ -96,44 +90,61 @@ export const Skill = styled.li`
 	width: 5.5rem;
 	height: 2rem;
 	list-style: none;
-	padding: 0.5rem;
-	margin: 0.5rem;
+	padding: 0.25rem;
+	margin: 0.25rem;
 	border-radius: 6px;
 	text-align: center;
-	align-items: flex-start;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 `;
 
 export const Listed = styled.ul`
+	padding: 0;
 	display: flex;
-	margin-left: 10vw;
+	flex-wrap: wrap;
 `;
 export const Profile = styled.img`
-	width: 600px;
+	object-fit: contain;
 	border-radius: 6px;
 `;
 
 export const SkillWrapper = styled.div`
-	display: flex;
-	margin-bottom: 10vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	@media screen and (min-width: 769px) {
+		height: 100vh;
+	}
 `;
-export const Description = styled.div`
-	margin-left: 12vw;
+export const Wrapper = styled.div`
+	display: flex;
+	background-color: #f1faee;
+	padding: 0.5;
+	color: #1d3557;
 `;
 export const ContentWrapper = styled.div`
-	width: 40vw;
 	justify-content: space-around;
 `;
 
 export const SmallContentWrapper = styled.div`
-	display: block;
-	padding: 2%;
-	max-width: 50%;
+	margin: 10px;
+	@media screen and (max-width: 500px) {
+		width: 70%;
+	}
 `;
 
 export const ProjectWrapper = styled.div`
-	display: flex;
-	margin: 1rem;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	// tablet
+	@media screen and (min-width: 768px) {
+		grid-template-columns: 1fr 1fr;
+	}
+	// laptop
+	@media screen and (min-width: 1024px) {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 `;
 
 export const ContactForm = styled.div`
