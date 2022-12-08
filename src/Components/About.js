@@ -32,9 +32,9 @@ const About = () => {
 					<a className="button" href="https://github.com/AdrianaMoralesQ">
 						<AiOutlineGithub />
 					</a>
-					{/* <a className="button" href="https://twitter.com/AdrianaMorale26">
+					<a className="button" href="https://twitter.com/AdrianaMorale26">
 						<AiFillTwitterCircle />
-					</a> */}
+					</a>
 					<button
 						onClick={() => {
 							window.scrollTo({ top: 2900, left: 0, behavior: "smooth" });
