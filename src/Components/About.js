@@ -23,15 +23,18 @@ const About = () => {
 					<Title> Full Stack Developer</Title>
 				</Intro>
 				<Icons>
-					<button href="https://www.linkedin.com/in/adriana-morales-quiones/">
+					<a
+						className="button"
+						href="https://www.linkedin.com/in/adriana-morales-quiones/"
+					>
 						<AiFillLinkedin className="icon" />
-					</button>
-					<button href="https://github.com/AdrianaMoralesQ">
+					</a>
+					<a className="button" href="https://github.com/AdrianaMoralesQ">
 						<AiOutlineGithub />
-					</button>
-					<button href="https://twitter.com/AdrianaMorale26">
+					</a>
+					{/* <a className="button" href="https://twitter.com/AdrianaMorale26">
 						<AiFillTwitterCircle />
-					</button>
+					</a> */}
 					<button
 						onClick={() => {
 							window.scrollTo({ top: 2900, left: 0, behavior: "smooth" });
