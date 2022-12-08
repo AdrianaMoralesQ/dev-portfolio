@@ -34,6 +34,10 @@ p {
 .title {
 	text-decoration: solid underline #e63946 0.15rem;
 }
+.orange {
+	color: #e63946;
+}
+
 h5 {
 	color: #e63946;
 }
@@ -48,4 +52,7 @@ button {
 	border-style: none;
 	font-size: 40px;
 	cursor: pointer;
+}
+.side {
+	display: flex;
 }

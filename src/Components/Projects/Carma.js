@@ -6,7 +6,10 @@ export default function Carma() {
 	return (
 		<>
 			<Screenie src={carma} alt="Carma app screenshot" />
-			<h4 className="stack"> React, Typescript, Styled-Components, Vercel </h4>
+			<h4 className="stack">
+				{" "}
+				Stack: React, Typescript, Styled-Components, Vercel{" "}
+			</h4>
 			<div>
 				<p>
 					I built the front-end for this amazing app! It notifies users when a

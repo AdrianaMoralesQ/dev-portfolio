@@ -5,19 +5,19 @@ import { Screenie } from "../../Public/Styled Components";
 export default function Eat() {
 	return (
 		<>
-			<Screenie src={eatthis} alt="Eat thisapp screenshot" />
+			<Screenie src={eatthis} alt="Eat this app screenshot" />
 			<h4 className="stack">
 				{" "}
-				React, Next.js, Airtable API, Figma, ThemeUI and Bootstrap
+				Stack: React, Next.js, Airtable API, ThemeUI and Bootstrap
 			</h4>
 			<div>
-				<p>Project planning was done on Figma.</p>
-				<p> App tracks food portions and recipes for users </p>
-				<p>Data for food portions and recipes is updated via Airtable API </p>
-				<a href="https://github.com/AdrianaMoralesQ/its-books-project-final">
-					{" "}
-					Github
-				</a>
+				<p>This project is a work in progress.</p>
+				<p> The app will track food portions and recipes for users. </p>
+				<p>
+					Data for food portions and recipes will be updated via the Airtable
+					API to make updating it easy.{" "}
+				</p>
+				<a href="https://github.com/AdrianaMoralesQ/EatThisApp"> Github</a>
 			</div>
 		</>
 	);
