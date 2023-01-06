@@ -54,7 +54,8 @@ const About = () => {
 					<Emoji symbol="🐊" label="crocodile" />
 				</Paragraph>
 				<Paragraph>
-					I make awesome tacos <Emoji symbol="🌮" label="taco" />
+					I make awesome Mexican food <Emoji symbol="🌮" label="taco" />, I do
+					CrossFit 🏋️‍♀️ and love my snarky cat 🐈.
 				</Paragraph>
 			</Header>
 		</AboutWrapper>

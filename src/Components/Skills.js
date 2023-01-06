@@ -18,20 +18,25 @@ const Skills = () => {
 					<Listed>
 						<h3>Front-end:</h3>
 						<Skill>Javascript</Skill>
+						<Skill>Typescript</Skill>
 						<Skill>HTML</Skill>
 						<Skill>CSS</Skill>
 						<Skill>React</Skill>
 						<Skill>Bootstrap</Skill>
+						<Skill>Tailwind</Skill>
+						<Skill>Context</Skill>
 					</Listed>
 					<Listed>
 						<h3>Back-end:</h3>
 						<Skill>Node.js</Skill>
 						<Skill>MongoDB</Skill>
 						<Skill>Next.js</Skill>
+						<Skill>Airtable</Skill>
+						<Skill>Supabase</Skill>
 					</Listed>
 					<Listed>
 						<h3>Currently learning:</h3>
-						<Skill>Typescript</Skill>
+						<Skill>Firebase</Skill>
 					</Listed>
 					<div>
 						<h3 className="title"> I like making things run smoothly</h3>

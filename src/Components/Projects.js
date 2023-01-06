@@ -3,13 +3,20 @@ import ProjectSection from "./ProjectSection.js";
 import Carma from "./Projects/Carma.js";
 import Books from "./Projects/Books.js";
 import EatThis from "./Projects/EatThis.js";
+import Monstera from "./Projects/LinkMonstera.js";
 
 const Projects = () => {
 	return (
 		<ProjectWrapper>
 			<ProjectSection
 				subtitle="Full Stack Developer"
-				title="Eat This - WIP"
+				title="Link Monstera"
+				type="Personal Project"
+				element={<Monstera />}
+			/>
+			<ProjectSection
+				subtitle="Full Stack Developer"
+				title="Eat This"
 				type="Personal Project"
 				element={<EatThis />}
 			/>

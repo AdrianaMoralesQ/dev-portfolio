@@ -11,16 +11,19 @@ export default function Eat() {
 				Stack: React, Next.js, Airtable API, ThemeUI and Bootstrap
 			</h4>
 			<div>
-				<p>This project is a work in progress.</p>
-				<p> The app will track food portions and recipes for users. </p>
+				<p> The app provides a list of ingredients for cooking and recipes.</p>
 				<p>
-					Data for food portions and recipes will be updated via the Airtable
-					API to make updating it easy.{" "}
+					Data for ingredients and recipes is stored in Airtable to make
+					updating them simple.{" "}
+				</p>
+				<p>
+					Objective: Using Airtable API as a database, using ThemesUI and
+					Bootstrap for styling.
 				</p>
 				<a href="https://github.com/AdrianaMoralesQ/EatThisApp"> Github</a>
 			</div>
 			<div>
-				<a href="/eatthis"> Read More</a>
+				<a href="https://eat-this-app.vercel.app/"> Live - Hosted on Vercel</a>
 			</div>
 		</>
 	);

@@ -143,7 +143,7 @@ export const ProjectWrapper = styled.div`
 	}
 	// laptop
 	@media screen and (min-width: 1024px) {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 	}
 `;
 
@@ -205,7 +205,7 @@ export const ContactWrapper = styled.div`
 `;
 
 export const Screenie = styled.img`
-	max-width: 325px;
+	max-width: 350px;
 	cursor: pointer;
 	border-radius: 10px;
 `;
