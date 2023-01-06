@@ -19,6 +19,9 @@ export default function Eat() {
 				</p>
 				<a href="https://github.com/AdrianaMoralesQ/EatThisApp"> Github</a>
 			</div>
+			<div>
+				<a href="/eatthis"> Read More</a>
+			</div>
 		</>
 	);
 }

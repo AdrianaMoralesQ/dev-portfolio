@@ -7,34 +7,42 @@ import { Component } from "react";
 import dummyText from "./DummyText";
 import NavBar from "./NavBar";
 import Skills from "./Skills";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import EatThisPage from "./ProjectPage/EatThis";
 
 class App extends Component {
 	render() {
 		return (
 			<div>
-				<header> Adriana Morales</header>
-				<div className="App">
-					<NavBar />
-					<About id="About" />
-					<Section
-						title="My Skills"
-						element={<Skills />}
-						dark={true}
-						id="Skills"
-					/>
-					<Section
-						title="Projects"
-						element={<Projects />}
-						dark={true}
-						id="Projects"
-					/>
-					<Section
-						title="Contact"
-						element={<Contact />}
-						dark={true}
-						id="Contact"
-					/>
-				</div>
+				<BrowserRouter>
+					<header> Adriana Morales</header>
+					<div className="App">
+						<NavBar />
+						<About id="About" />
+						<Section
+							title="My Skills"
+							element={<Skills />}
+							dark={true}
+							id="Skills"
+						/>
+						<Section
+							title="Projects"
+							element={<Projects />}
+							dark={true}
+							id="Projects"
+						/>
+						<Section
+							title="Contact"
+							element={<Contact />}
+							dark={true}
+							id="Contact"
+						/>
+						<Routes>
+							<Route path="/eatthis" element={<EatThisPage />}></Route>
+						</Routes>
+					</div>
+				</BrowserRouter>
 			</div>
 		);
 	}
