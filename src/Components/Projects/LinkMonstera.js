@@ -17,6 +17,10 @@ export default function Monstera() {
 					to store their important personal links to share with others.
 				</p>
 				<p>
+					I used Supabase's authorization to enable user creation and Context
+					for logging in and out of the app
+				</p>
+				<p>
 					Objective: Learning to use Supabase as a database and Tailwind for
 					styling.
 				</p>
