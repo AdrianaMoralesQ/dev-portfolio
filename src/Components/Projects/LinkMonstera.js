@@ -1,10 +1,19 @@
 import React from "react";
 import linkmonstera from "../../Public/linkmonstera.png";
-import { Screenie } from "../../Public/Styled Components";
+import { Screenie, LinkWrapper } from "../../Public/Styled Components";
 
 export default function Monstera() {
 	return (
-		<>
+		<div>
+			<LinkWrapper>
+				<a href="https://github.com/AdrianaMoralesQ/link-monstera"> Github</a>
+				<div>
+					<a href="https://link-monstera-rcwn.vercel.app/Adriana">
+						{" "}
+						Live - Hosted on Vercel
+					</a>
+				</div>
+			</LinkWrapper>
 			<Screenie src={linkmonstera} alt="link monstera app screenshot" />
 			<h4 className="stack">
 				{" "}
@@ -24,14 +33,7 @@ export default function Monstera() {
 					Objective: Learning to use Supabase as a database and Tailwind for
 					styling.
 				</p>
-				<a href="https://github.com/AdrianaMoralesQ/link-monstera"> Github</a>
 			</div>
-			<div>
-				<a href="https://link-monstera-rcwn.vercel.app/Adriana">
-					{" "}
-					Live - Hosted on Vercel
-				</a>
-			</div>
-		</>
+		</div>
 	);
 }

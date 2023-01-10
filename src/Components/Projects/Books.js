@@ -1,10 +1,18 @@
 import React from "react";
 import books from "../../Public/books.png";
-import { Screenie } from "../../Public/Styled Components";
+import { LinkWrapper, Screenie } from "../../Public/Styled Components";
 
 export default function Books() {
 	return (
 		<>
+			<LinkWrapper>
+				<p className="link">
+					<a href="https://github.com/AdrianaMoralesQ/its-books-project-final">
+						{" "}
+						Github
+					</a>{" "}
+				</p>
+			</LinkWrapper>
 			<Screenie src={books} alt="It's books app screenshot" />
 			<h4 className="stack">
 				Stack: React, Typescript, Styled-Components, MockAPI, MongoDB, Auth0
@@ -25,12 +33,6 @@ export default function Books() {
 					as vote and rate books.
 				</p>
 				<div className="side">
-					<p className="link">
-						<a href="https://github.com/AdrianaMoralesQ/its-books-project-final">
-							{" "}
-							Github
-						</a>{" "}
-					</p>
 					{/* <p> - </p>
 					<p>
 						<a href="https://www.loom.com/share/da0537ab918f4ed1b1b7a8558c8a2310">

@@ -1,10 +1,15 @@
 import React from "react";
 import carma from "../../Public/carma.png";
-import { Screenie } from "../../Public/Styled Components";
+import { Screenie, LinkWrapper } from "../../Public/Styled Components";
 
 export default function Carma() {
 	return (
-		<>
+		<div>
+			<LinkWrapper>
+				<a href="https://github.com/AdrianaMoralesQ/communauto-notification-system/tree/main/frontend">
+					Github
+				</a>
+			</LinkWrapper>
 			<Screenie src={carma} alt="Carma app screenshot" />
 			<h4 className="stack">
 				{" "}
@@ -23,11 +28,7 @@ export default function Carma() {
 					UI design and colors were inspired by the Comunauto site but complying
 					with accessibility parameters.{" "}
 				</p>
-
-				<a href="https://github.com/AdrianaMoralesQ/communauto-notification-system/tree/main/frontend">
-					Github
-				</a>
 			</div>
-		</>
+		</div>
 	);
 }

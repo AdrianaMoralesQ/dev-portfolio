@@ -209,3 +209,6 @@ export const Screenie = styled.img`
 	cursor: pointer;
 	border-radius: 10px;
 `;
+export const LinkWrapper = styled.div`
+	margin-bottom: 1rem;
+`;
