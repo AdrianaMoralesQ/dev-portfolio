@@ -25,12 +25,12 @@ const Skills = () => {
 						<Skill>Bootstrap</Skill>
 						<Skill>Tailwind</Skill>
 						<Skill>Context</Skill>
+						<Skill>Next.js</Skill>
 					</Listed>
 					<Listed>
 						<h3>Back-end:</h3>
 						<Skill>Node.js</Skill>
 						<Skill>MongoDB</Skill>
-						<Skill>Next.js</Skill>
 						<Skill>Airtable</Skill>
 						<Skill>Supabase</Skill>
 					</Listed>
