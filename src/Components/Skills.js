@@ -7,7 +7,7 @@ import {
 	SkillWrapper,
 	ContentWrapper,
 } from "../Public/Styled Components.js";
-import ProfilePic from "../Public/ProfilePic.jpeg";
+import ProfilePic from "../Public/ProfilePic.png";
 
 const Skills = () => {
 	return (

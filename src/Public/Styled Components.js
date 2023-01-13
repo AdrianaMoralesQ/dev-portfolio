@@ -106,7 +106,8 @@ export const Listed = styled.ul`
 `;
 export const Profile = styled.img`
 	object-fit: contain;
-	border-radius: 6px;
+	border-radius: 52%;
+	max-width: 75%;
 `;
 
 export const SkillWrapper = styled.div`
