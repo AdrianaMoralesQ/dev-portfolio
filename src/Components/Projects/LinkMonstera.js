@@ -8,7 +8,7 @@ export default function Monstera() {
 			<LinkWrapper>
 				<a href="https://github.com/AdrianaMoralesQ/link-monstera"> Github</a>
 				<div>
-					<a href="https://link-monstera-rcwn.vercel.app/Adriana">
+					<a href="https://link-monstera.vercel.app/Adriana">
 						{" "}
 						Live - Hosted on Vercel
 					</a>
